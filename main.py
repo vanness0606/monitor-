@@ -26,7 +26,7 @@ print("=== 所有套件載入完成 ===")
 
 # ===== 從 Railway 環境變數讀取 =====
 TARGET_URL = os.getenv("TARGET_URL", "https://tixcraft.com/ticket/area/26_aespa/22415")
-CHECK_INTERVAL = int(os.getenv("CHECK_INTERVAL", "45"))
+CHECK_INTERVAL = int(os.getenv("CHECK_INTERVAL", "20"))
 DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL")
 EXCLUDE_KEYWORDS = ["身障", "輪椅", "disabled", "wheelchair", "身障席", "身障區"]
 
